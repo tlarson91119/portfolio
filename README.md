@@ -15,3 +15,7 @@ as the devices that interconnect the countless number of networks around the wor
 been learning about the security mechanisms that protect these networks and the devices
 within these networks. It's been a long journey so far, but there will always be more
 to learn as the Internet continues to evolve as newer protocols are deployed.
+<br>
+My decision to use a GitHub repository was a spur-of-the-moment decision. I'm certain there
+are other platforms available to satisfy my requirements, but I'll continue using this
+platform until I find something more suitable.
