@@ -19,3 +19,8 @@ to learn as the Internet continues to evolve as newer protocols are deployed.
 My decision to use a GitHub repository was a spur-of-the-moment decision. I'm certain there
 are other platforms available to satisfy my requirements, but I'll continue using this
 platform until I find something more suitable.
+
+At the root of this repository, there exist various directories that are related to specific
+subjects that I've been working with. I have a, rather excessive, habit of taking many
+handwritten notes (including typed notes). There are some notes I plan to digitize eventually
+and possibly add to this repository.
