@@ -3,7 +3,9 @@ There was some structural damage on the chassis that prevented certain drive cad
 from being inserted properly. After removing the hardware, I was able to straighten
 out the chassis so that the caddies would fit in all of the available spaces.
 The POST was successful and even the smart storage battery is healthy.
-![alt text](https://github.com/tlarson91119/portfolio/blob/main/Windows%20Server%20AD%20DS/proliant-hardware.jpg)
+
+![alt text](Windows Server AD DS/proliant-hardware.jpg)
+
 After looking through the UEFI settings and figuring out how to access the Smart
 Array Controller, I popped in a single 120GB SSD for the OS and four 1TB SAS
 disks. I placed the 4 SAS drives in a RAID10 array because I wanted to store
