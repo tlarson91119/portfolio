@@ -1,5 +1,5 @@
 # portfolio
-Collection of images and documentation I've accumulated throughout my studies.
+### A collection of images and documentation I've accumulated throughout my studies.
 
 <h3>Introduction</h3>
 I've been studying various areas of information technology over the last few years and
@@ -14,13 +14,13 @@ environments. I concentrated on learning as much as I can about the IT world aro
 as the devices that interconnect the countless number of networks around the world. I've
 been learning about the security mechanisms that protect these networks and the devices
 within these networks. It's been a long journey so far, but there will always be more
-to learn as the Internet continues to evolve as newer protocols are deployed.
-<br>
+to learn as the Internet continues to evolve as newer protocols are deployed.<br><br>
+
 My decision to use a GitHub repository was a spur-of-the-moment decision. I'm certain there
 are other platforms available to satisfy my requirements, but I'll continue using this
-platform until I find something more suitable.
+platform until I find something more suitable.<br><br>
 
-At the root of this repository, there exist various directories that are related to specific
+At the root of this repository exists various directories, related to specific
 subjects that I've been working with. I have a, rather excessive, habit of taking many
-handwritten notes (including typed notes). There are some notes I plan to digitize eventually
-and possibly add to this repository.
+handwritten notes (including typed notes). I plan to digitize some of the most important
+notes over time.
