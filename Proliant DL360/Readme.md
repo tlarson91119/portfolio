@@ -37,3 +37,5 @@ boot. However, there were some cases where I needed to interact directly with
 the server to troubleshoot some issues with Ubuntu.
 When everything is running right, I can work with the system remotely from
 the comfort of my main desktop.
+
+![alt text](images/virtual-machine-manager.jpg)
