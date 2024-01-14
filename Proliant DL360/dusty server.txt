@@ -1,0 +1,16 @@
+I've been running my Proliant DL360 for a few months now and Ubuntu Server and its
+  virtual machines are still healthy. I rebooted the server sometime and when
+  reaching to press the power button, I couldn't help noticing the amount of
+  dust that had built up on the front panel and around the edges of the disk
+  drives.
+
+I'll likely need to remove the drive caddies to make sure I clear everything. I'll
+  need to do a little reading to see if there is anything important to consider
+  before taking the disks out even though the server will be unplugged, because
+  there's also a battery pack for the SmartStorage Array Controller. I don't want
+  to make a mistake and lose my RAID configuration, so I will first save all of
+  the configuration details to be safe.
+  I'm thinking that I shouldn't have to disconnect the battery if it is only
+  used for protecting data in the array controller's 2GB of memory and that
+  the card's configuration is saved to non-volatile memory. I'll take a look
+  at the manual.
