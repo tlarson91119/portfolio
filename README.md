@@ -1,5 +1,4 @@
-# portfolio
-### A collection of images and documentation I've accumulated throughout my studies.
+### A collection of documentation/images I've accumulated throughout my studies.
 
 <h3>Introduction</h3>
 My name is Thomas and I've been studying various areas of information technology over the last few years and
@@ -22,7 +21,8 @@ are other platforms available to satisfy my requirements, but I'll continue usin
 platform until I find something more suitable.<br><br>
 
 At the root of this repository exists various directories, related to specific
-subjects that I've been working with. I have a habit of taking many handwritten notes throughout
+subjects that I've been working with. Being a new repository, there is not much on here currently,
+but I hope to continue adding content to it. I have a habit of taking lots of handwritten notes throughout
 my studies. I'll discard many of these notes, but will keep the ones that I believe
 will be useful in the field and I'll store those in a personal reference guide that I have been
 compiling.
