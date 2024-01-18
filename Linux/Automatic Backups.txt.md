@@ -32,6 +32,9 @@ Open a new shell terminal and type `crontab -e` to modify your user account's cr
 <p><code>0  8,20  *  *  *  ~/Scripts/backup-documents.sh</code></p>
 <p>This tells crond to run the script every day at 8AM and 8PM. You can change this to whatever you want. It is very flexible, in terms of exactly when you want a cronjob to run (e.g, every other day, once a month on a specific day of the month, etc). Viewing the `/etc/crontab` file shows an example of a job definition and "https://cron.help/" provides a useful tool to make definitions.</p>
 
+![alt text](images/backup-log-debian.jpg)\
+*Viewing journal entry with journalctl*
+
 <p>Sure, I could have downloaded and installed an all-in-one backup solution, but sometimes I like writing my own scripts/programs. It gives me a constructive reason to write shell scripts and gain more hands-on experience with it as well. For a simple backup solution with rsync, I think the script works really well. I did a few tests to ensure that rsync is running correctly and that the cronjob runs when it's supposed to. I've also tested the condition test by disconnecting the server to make sure that the script produces the expected error output as a log entry.</p>
 
 <p>One of my main concerns is with the power consumption of the Proliant and the 7 SAS disks that are running in it. The SmartArray controller does have options for tuning the power consumption and I set it somewhere in between. Considering how infrequently the array is accessed, it'll probably be best to enable maximum power savings to ensure that the disks don't run all the time. I'll have to see if there are any power-related settings in Ubuntu as well.
