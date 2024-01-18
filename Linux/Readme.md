@@ -19,6 +19,9 @@ I've already upgraded to Debian 12 and have been using it on the daily
 for everything, except games. I can play some games without needing
 to use an emulator, but I'll usually boot into Windows to game.
 
+I have been reading _How Linux Works, 3rd Edition_ by Brian Ward. I've only just
+started reading it, but am enjoying it very much.
+
 But anyway, Debian has been a lot of fun for me and I've been writing
 some shell scripts and C code here and there. Sometimes I'll just use it to
 watch YouTube all day or "surf" on CS:S on the weekend when I need a break.
