@@ -28,7 +28,7 @@ logger Backup script completed
 </code></p>
 
 ## Adding a cronjob:
-Open a new shell terminal and type `crontab -e` to modify your user account's crontab file. This command, with the **-e** option, will take you to an editor. Scroll to the bottom of the file and add a line similar to the following:
+Open a new shell terminal and type `crontab -e` to modify your user account's crontab file. This command, with the **-e** option, will take you to an editor. Scroll to the bottom of the file and add a line similar to the following (_ensure there's an empty newline following the last entry_):
 <p><code>0  8,20  *  *  *  ~/Scripts/backup-documents.sh</code></p>
 <p>This tells crond to run the script every day at 8AM and 8PM. You can change this to whatever you want. It is very flexible, in terms of exactly when you want a cronjob to run (e.g, every other day, once a month on a specific day of the month, etc). Viewing the `/etc/crontab` file shows an example of a job definition and "https://cron.help/" provides a useful tool to make definitions.</p>
 
