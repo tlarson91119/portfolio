@@ -20,9 +20,9 @@ Like the owner, group and other permissions, the special permissions digit follo
 ![alt text](images/special-permission.jpg)\
 *Special permissions on owner, group and other*
 
-- If SUID is set when owner has execute permission, then then the file will be executed as the owner for everyone who executes that file. If the owner does not have execute permission, then the lowercase '**s**' is replaced with an uppercase '**S**' to distinguish between the owner having execute permission or not.
-- If GUID is set, then the file can be executed as the owning group. If set on a directory, then any files created within that directory will have group ownership set to owner of the directory. For instance, if Joe created a new file in a folder owned by Jerry, then the file will be owned by Jerry, but its group ownership will be Joe. If the group execute permission is not set, then an uppercase '**S**' is shown.
-- If the Sticky Bit is set on a directory, any files (or directories) can only be deleted by their owner.
+- If **SUID** (set-user-ID) is set when owner has execute permission, then then the file will be executed as the owner for everyone who executes that file. If the owner does not have execute permission, then the lowercase '**s**' is replaced with an uppercase '**S**' to distinguish between the owner having execute permission or not.
+- If **GUID** (set-group-ID) is set, then the file can be executed as the owning group. If set on a directory, then any files created within that directory will have group ownership set to owner of the directory. For instance, if Joe created a new file in a folder owned by Jerry, then the file will be owned by Jerry, but its group ownership will be Joe. If the group execute permission is not set, then an uppercase '**S**' is shown.
+- If the Sticky Bit is set on a directory, any files (or directories) can only be deleted by their owner. The sticky bit is also known as the "_file deletion flag_".
 
 ## The umask
 The umask modified the default permissions for files/directories that a user creates. On my Debian system's user account, the default umask is **0022**.
