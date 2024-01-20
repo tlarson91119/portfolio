@@ -10,12 +10,28 @@ Below is an example of **ls** output showing a file that has the following permi
 ![alt text](images/permissions.jpg)\
 *Diagram showing meaning of ls output*
 
+**Note** : execute permission on a directory enables one to traverse into the directory via **cd**. For instance, if **other** does not have execute permission on a directory, an _other_ user will get a "_Permission denied_" error when attempting to navigate into that directory.
+
 ## Special Permissions
 Special permissions are basically a 4th level of access that provide some extra access controls.
 This fourth level of access is represented by yet another digit that many new users may not have noticed, unless using the **stat** command which displays 4 octal values.
 For example, a file's permissions may look like 0750 if there are no special permissions set as indicated by the first digit, on the left, being 0.
 Like the owner, group and other permissions, the special permissions digit follows a similar 4+2+1 convention as follows:
 
+![alt text](images/special-permission.jpg)\
+*Special permissions on owner, group and other*
 
 - If SUID is set when owner has execute permission, then then the file will be executed as the owner for everyone who executes that file. If the owner does not have execute permission, then the lowercase '**s**' is replaced with an uppercase '**S**' to distinguish between the owner having execute permission or not.
-- If GUID is set, then 
+- If GUID is set, then the file can be executed as the owning group. If set on a directory, then any files created within that directory will have group ownership set to owner of the directory. For instance, if Joe created a new file in a folder owned by Jerry, then the file will be owned by Jerry, but its group ownership will be Joe. If the group execute permission is not set, then an uppercase '**S**' is shown.
+- If the Sticky Bit is set on a directory, any files (or directories) can only be deleted by their owner.
+
+## The umask
+The umask defines the default permissions for files/directories that a user creates. On my Debian system's user account, the default umask is **0022**.
+The default permissions 777 (files) and 666 (directories) are modified by the umask to establish the effective permissions for any new files that are created by the user.
+- 0 : no permissions removed
+- 1 : execute bit removed
+- 2 : write bit removed
+- 4 : read bit removed
+
+For a umask of 0022 against default permissions 777 (directories) yields effective permissions of 0755 for directories.
+For files, the effective permissions will be 0644.
