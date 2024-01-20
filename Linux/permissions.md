@@ -25,7 +25,7 @@ Like the owner, group and other permissions, the special permissions digit follo
 - If the Sticky Bit is set on a directory, any files (or directories) can only be deleted by their owner.
 
 ## The umask
-The umask defines the default permissions for files/directories that a user creates. On my Debian system's user account, the default umask is **0022**.
+The umask modified the default permissions for files/directories that a user creates. On my Debian system's user account, the default umask is **0022**.
 The default permissions 777 (files) and 666 (directories) are modified by the umask to establish the effective permissions for any new files that are created by the user.
 - 0 : no permissions removed
 - 1 : execute bit removed
