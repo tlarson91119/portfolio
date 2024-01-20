@@ -32,5 +32,8 @@ The default permissions 777 (files) and 666 (directories) are modified by the um
 - 2 : write bit removed
 - 4 : read bit removed
 
+### End
+This text, so far, is my current understanding of how permissions work on *Nix systems. I find that creating my own little diagrams and typing things out helps to etch concepts in my brain. As I continue my journey, I hope to improve my documentation as time goes by (possibly correcting any inconsistencies that I may find later in the future). I find drawing diagrams to be a little fun and it really helps with memorization.
+
 For a umask of 0022 against default permissions 777 (directories) yields effective permissions of 0755 for directories.
 For files, the effective permissions will be 0644.
