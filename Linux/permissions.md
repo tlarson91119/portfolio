@@ -6,7 +6,6 @@ Below is an example of **ls** output showing a file that has the following permi
 - Owner: rwx (read,write,execute)
 - Group: r-x (read,execute)
 - Other: r-- (read)
-
 ![alt text](images/permissions.jpg)\
 *Diagram showing meaning of ls output*
 
